@@ -17,5 +17,4 @@ EOF
 ```
 ```
 curl -sk https://raw.githubusercontent.com/redhat-developer/openshift-gitops-getting-started/main/argo/app.yaml | oc create -f -
-oc label namespace spring-petclinic argocd.argoproj.io/managed-by=openshift-gitops
 ```
