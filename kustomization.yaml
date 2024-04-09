@@ -5,3 +5,4 @@ resources:
 - openshift-gitops-operator.namespace.yaml
 - openshift-gitops-operator.operatorgroup.yaml
 - openshift-gitops-operator.subscription.yaml
+- spring-petclinic.namespace.yaml
