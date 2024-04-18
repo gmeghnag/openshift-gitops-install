@@ -16,5 +16,5 @@ spec:
 EOF
 ```
 ```
-curl -sk https://raw.githubusercontent.com/redhat-developer/openshift-gitops-getting-started/main/argo/app.yaml | oc create -f -
+curl -sk https://raw.githubusercontent.com/gmeghnag/openshift-gitops-install/main/argo/Application.yaml | oc create -f -
 ```
