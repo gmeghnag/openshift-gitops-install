@@ -1,0 +1,11 @@
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: spring-petclinic-servicemonitor
+  namespace: spring-petclinic
+spec:
+  endpoints:
+  - port: metrics
+  selector:
+    matchLabels:
+      app: spring-petclinic
